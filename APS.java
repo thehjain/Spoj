@@ -10,8 +10,14 @@ class APS {
 	private static int MOD = 1000000007;
 	static FastScanner sc = new FastScanner();
 
+	static long[] A = new long[10000009];
+	static int[] F = new int[10000009];
+
 	public static void main(String[] args) throws IOException {
 		int T = sc.nextInt();
+		// Arrays.fill(A,0);
+		// Arrays.fill(F,0);
+		sieve();
 		while (T-- > 0) {
 			solve();
 		}
@@ -19,8 +25,28 @@ class APS {
 
 	static void solve() throws IOException {
 
-		System.out.println("HELLO");
+		int n = sc.nextInt();
 
+		if (n == 0 || n == 1) {
+			System.out.println(0);
+			return;
+		}
+
+		System.out.println(A[n]);
+	}
+
+	static void sieve() {
+		for (int i = 2; i <= 10000000; i++) {
+			if (F[i] == 0) {
+				for (int j = i + i; j <= 10000000; j += i) {
+					if (F[j] == 0) {
+						F[j] = i;
+					}
+				}
+				A[i] = A[i - 1] + i;
+			} else
+				A[i] = A[i - 1] + F[i];
+		}
 	}
 
 	static class FastScanner {
