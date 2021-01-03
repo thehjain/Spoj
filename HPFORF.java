@@ -5,7 +5,7 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-class HarryPotter {
+class HPFORF {
 
 	private static int MAX = Integer.MAX_VALUE;
 	private static int MIN = Integer.MIN_VALUE;
