@@ -12,3 +12,5 @@ Do the questions in given order:
 4.Amazing Prime Sequence (APS)
 
 5.Crucial Equation (CEQU)
+
+6.Party Schedule (PARTY)
