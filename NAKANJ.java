@@ -8,7 +8,7 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-public class MinimumKnightMoves {
+public class NAKANJ {
 
 	private static int MAX = Integer.MAX_VALUE;
 	private static int MIN = Integer.MIN_VALUE;
