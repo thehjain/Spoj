@@ -10,16 +10,39 @@ class M3TILE {
 	static FastScanner sc = new FastScanner();
 
 	public static void main(String[] args) throws IOException {
-		int T = sc.nextInt();
-		while (T-- > 0) {
-			solve();
+		// int T = sc.nextInt();
+		while (true) {
+			int n = sc.nextInt();
+			if (n == -1)
+				break;
+			solve(n);
 		}
 	}
 
-	static void solve() throws IOException {
+	static void solve(int n) throws IOException {
 
+		// if(n==0 || n==1 || n%2==1){
+		// 	System.out.println(0);
+		// 	return;
+		// }
 
+		if (n == 0) {
+			System.out.println(1);
+			return;
+		}
 
+		long[] A = new long[n + 1];
+		long[] B = new long[n + 1];
+
+		//Base Cases
+		A[0] = 1; A[1] = 0;
+		B[0] = 0; B[1] = 1;
+
+		for (int i = 2; i <= n; i++) {
+			A[i] = A[i - 2] + 2 * (B[i - 1]);
+			B[i] = A[i - 1] + B[i - 2];
+		}
+		System.out.println(A[n]);
 	}
 
 	static class FastScanner {
