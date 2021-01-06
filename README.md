@@ -24,3 +24,12 @@ Do the questions in given order:
 10.LATGACH3 (M3TILE)
 
 11.Update The Array (UPDATEIT)
+
+12.Small Factorials (FCTRL2)
+
+13.Treat The Cows (TRT)
+
+14.DOTAA HEROES (DOTAA)
+
+15.The Mirror of Galadrieal (AMRI2D)
+
