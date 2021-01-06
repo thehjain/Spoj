@@ -10,15 +10,66 @@ class MICEMAZE {
 	static FastScanner sc = new FastScanner();
 
 	public static void main(String[] args) throws IOException {
-		int T = sc.nextInt();
-		while (T-- > 0) {
-			solve();
-		}
+		// int T = sc.nextInt();
+		// while (T-- > 0) {
+		solve();
+		// }
 	}
 
 	static void solve() throws IOException {
 
-		System.out.println("hello");
+		int n = sc.nextInt();
+		int exit = sc.nextInt();
+		int time = sc.nextInt();
+		int m = sc.nextInt();
+
+		int[][] arr = new int[n][n];
+
+		for (int[] row : arr)
+			Arrays.fill(row, MAX);
+
+		for (int i = 0; i < n; i++)
+			arr[i][i] = 0;
+
+		for (int i = 0; i < m; i++) {
+			int a = sc.nextInt() - 1;
+			int b = sc.nextInt() - 1;
+			int dist = sc.nextInt();
+			arr[a][b] = dist;
+		}
+
+		int res = 0;
+
+		int[][] dp = new int[n][n];
+
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < n; j++)
+				dp[i][j] = arr[i][j];
+
+		for (int k = 0; k < n; k++) {
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < n; j++) {
+					if (dp[i][k] + dp[k][j] < dp[i][j] && dp[i][k] != MAX && dp[k][j] != MAX)
+						dp[i][j] = dp[i][k] + dp[k][j];
+				}
+			}
+		}
+
+		// for (int i = 0; i < n; i++) {
+		// 	for (int j = 0; j < n; j++) {
+		// 		if (dp[i][j] == MAX)
+		// 			System.out.print("N ");
+		// 		else
+		// 			System.out.print(dp[i][j] + " ");
+		// 	}
+		// 	System.out.println();
+		// }
+
+		for (int i = 0; i < n; i++)
+			if (dp[i][exit - 1] <= time)
+				res++;
+
+		System.out.println(res);
 
 	}
 
