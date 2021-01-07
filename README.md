@@ -33,3 +33,22 @@ Do the questions in given order:
 
 15.The Mirror of Galadrieal (AMRI2D)
 
+16.Herding (HERDING)
+
+17.Vampire and His Holy Numbers (QKIRA)
+
+18.Longest Path in a Tree (PT07Z)
+
+19.Mice And Maze (MICEMAZE)
+
+20.Lowest Common Ancestor (LCA)
+
+21.Easy Odd Sum (MADODDSUM)
+
+22.Chocolate (CHOCOLA)
+
+23.Nice Binary Trees (NICEBTRE)
+
+24.Invisible Point (ADV04J)
+
+25.Circular Track (SPEED)
