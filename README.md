@@ -52,3 +52,13 @@ Do the questions in given order:
 24.Invisible Point (ADV04J)
 
 25.Circular Track (SPEED)
+
+26.Candy Distribution (CADYDIST)
+
+27.Product of Factorials (FACTMUL)
+
+28.The Yellow Brick Road (YELBRICK)
+
+29.Hacking the Random Number Generator (HACKRNDM)
+
+30.What's Next (ACPC10A)
