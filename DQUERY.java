@@ -68,8 +68,8 @@ class DQUERY {
 			}
 		});
 
-		for (Query ele : queries)
-			System.out.println(ele.L + " " + ele.R);
+		// for (Query ele : queries)
+		// 	System.out.println(ele.L + " " + ele.R);
 
 		int currL = queries.get(0).L, currR = queries.get(0).R;
 		int res = 0;
