@@ -72,3 +72,13 @@ Do the questions in given order:
 34.M&M Game (MMMGAME)
 
 35.Digo Plays With Numbers (INS14C)
+
+36.D-Query (DQUERY)
+
+37.Decipher (ROOTCIPH)
+
+38.A Game With Numbers (NGM)
+
+39.Sheep (KOZE)
+
+40.Amr Samir (PCPC12J)
