@@ -62,3 +62,13 @@ Do the questions in given order:
 29.Hacking the Random Number Generator (HACKRNDM)
 
 30.What's Next (ACPC10A)
+
+31.Honda And Kagawa (HONDA)
+
+32.What A Co-Incident (SYNC13C)
+
+33.Matrix Game (MATGAME)
+
+34.M&M Game (MMMGAME)
+
+35.Digo Plays With Numbers (INS14C)
