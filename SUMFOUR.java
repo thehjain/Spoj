@@ -32,9 +32,6 @@ class SUMFOUR {
 			D[i] = sc.nextLong();
 		}
 
-		// long[] arr = new long[10000001];
-		// long[] brr = new long[10000001];
-
 		ArrayList<Long> arr = new ArrayList<>();
 		ArrayList<Long> brr = new ArrayList<>();
 
@@ -64,13 +61,6 @@ class SUMFOUR {
 		Arrays.sort(br);
 
 		long res = 0;
-
-		// for (int i = 0; i < n * n - n; i++)
-		// 	System.out.print(ar[i] + " ");
-		// System.out.println();
-		// for (int i = 0; i < n * n - n; i++)
-		// 	System.out.print(br[i] + " ");
-		// System.out.println();
 
 		for (int i = 0; i < index;) {
 			int size1 = 0;
