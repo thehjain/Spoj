@@ -46,7 +46,6 @@ class GIRLSNBS {
 		}
 
 		System.out.println(res);
-
 	}
 
 	static class FastScanner {
