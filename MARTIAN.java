@@ -38,12 +38,6 @@ class MARTIAN {
 					blog[i][j] += blog[i - 1][j];
 			}
 
-		// for (int[] row : yen) {
-		// 	for (int ele : row)
-		// 		System.out.print(ele + " ");
-		// 	System.out.println();
-		// }
-
 		int[][] dp = new int[n + 1][m + 1];
 
 		for (int[] row : dp)
