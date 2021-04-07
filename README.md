@@ -82,3 +82,19 @@ Do the questions in given order:
 39.Sheep (KOZE)
 
 40.Amr Samir (PCPC12J)
+
+41.Girls And Boys (GIRLSNBS)
+
+42.4 Values Whose sum is 0 (SUMFOUR)
+
+43.Can You Answer These Queries 1 (GSS1)
+
+44.Advanced Fruits (ADFRUITS)
+
+45.Martian Mining (MARTIAN)
+
+46.LCM Sum (LCM)
+
+47.Distributing Ballot Boxes (BALLOT)
+
+
